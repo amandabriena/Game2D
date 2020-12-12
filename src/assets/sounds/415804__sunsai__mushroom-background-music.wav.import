@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/415804__sunsai__mushroom-background-music.wav-356a5d6bc066782b6b6a7fb4b49a1923.sample"
+
+[deps]
+
+source_file="res://src/assets/sounds/415804__sunsai__mushroom-background-music.wav"
+dest_files=[ "res://.import/415804__sunsai__mushroom-background-music.wav-356a5d6bc066782b6b6a7fb4b49a1923.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
