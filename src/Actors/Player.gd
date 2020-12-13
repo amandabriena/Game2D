@@ -32,3 +32,10 @@ func calculate_move_velocity(
 
 	
 	return out
+
+
+func _on_EnemyDetector_area_entered(area):
+	pass # Replace with function body.
+
+func _on_EnemyDetector_body_entered(body):
+	queue_free()
