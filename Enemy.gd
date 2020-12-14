@@ -1,7 +1,13 @@
 extends Actor
 
+
+onready var anim_player: AnimationPlayer = $AnimationPlayer
+
 func _on_StompDetector_area_entered(area):
-	queue_free()
+	$StompDetector.queue_free()
+	$CollisionShape2D.queue_free()
+	
+	anim_player.play("die")
 
 func _ready():
 	_velocity.x = -speed.x
